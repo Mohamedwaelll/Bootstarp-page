@@ -1,0 +1,76 @@
+:root{
+  --green:#27ae60;
+  --black:#192a56;
+  --light-color:#666;
+  --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* home */
+.carousel{
+  min-height: calc(100vh - 70px);
+}
+/* home */
+.navbar{
+  background:#19283f;
+  box-shadow: 0 2.5rem 1.5rem rgba(0,0,0,.1);
+}
+.navbar .navbar-brand img{
+  width: 100px;
+  height:50px;
+}
+.navbar .navbar-brand{
+  color: #ffffff;
+  font-size: 25px;
+}
+.navbar .navbar-nav .nav-link{
+  color: #ffffff;
+  font-size: 15px;
+}
+.navbar .navbar-nav  .active{
+  color:#17c0eb;
+}
+.navbar .main-btn,
+form .main-btn{
+  background: #ffffff;
+  margin-left: 15px;
+}
+.navbar .main-btn:hover,
+form .main-btn:hover{
+  background: #17c0eb;
+}
+/* landing */
+.landing {
+  min-height: calc(100vh - 70px);
+}
+.landing img{
+  width: 1600px;
+  height: calc(100vh - 70px);
+}
+/* Couses */
+.couses{
+  background: #eff7fa;
+}
+
+.row .box h4{
+  background-color: #19283f;
+  padding: 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* team */
+.team .row .card-body{
+  background: #19283f;
+  color: #eff7fa;
+}
+.team .row .card-body h5{
+  color: #17c0eb;
+  font-weight: bolder;
+  font-size: 25px;
+}
+/* about */
+.about{
+  background: #eff7fa;
+}
+/* order */
